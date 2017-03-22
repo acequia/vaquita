@@ -7,4 +7,8 @@ describe User do
     subject.must_be :valid?
     build(:user).must_be :valid?
   end
+
+  it 'enforces an unique email' do
+    build(:user, email: subject.email).wont_be :valid?
+  end
 end
