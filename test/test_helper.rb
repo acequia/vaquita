@@ -6,6 +6,12 @@ require 'minitest/pride'
 
 class ActiveSupport::TestCase
   include FactoryGirl::Syntax::Methods
+
+  # Parse the response if it exists, else return need an empty hash for easier
+  # testing
+  def json_response
+    @response.body.empty? ? { } : ActiveSupport::JSON.decode(@response.body)
+  end
 end
 
 # FactoryGirl common helpers
