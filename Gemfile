@@ -10,6 +10,9 @@ gem 'rails', '~> 5.0.1'
 gem 'sqlite3'
 gem 'puma', '~> 3.0'
 
+# Auth
+gem 'knock'
+
 group :development, :test do
   gem 'minitest-rails'
   # Call 'byebug' in the code to stop execution and get a debugger console
