@@ -8,3 +8,7 @@ set :deploy_to, '/srv/http/vaquita.mauriciopasquier.com.ar'
 set :branch, 'develop'
 
 set :passenger_restart_with_touch, true
+
+# Server configuration
+set :config_repo_url, 'gogs@code.mauriciopasquier.com.ar:acequia/vaquita-config.git'
+set :config_repo_branch, 'staging'
