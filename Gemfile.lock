@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/mauriciopasquier/capistrano-config_provider.git
+  revision: 789b6759fe40398ea29eaa90ec47002f76f0fe26
+  specs:
+    capistrano-config_provider (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -100,6 +106,7 @@ GEM
     nio4r (2.0.0)
     nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
+    pg (0.20.0)
     puma (3.8.2)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -160,6 +167,7 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
+  capistrano-config_provider!
   capistrano-passenger
   capistrano-rails
   capistrano-rbenv
@@ -167,6 +175,7 @@ DEPENDENCIES
   knock
   listen (~> 3.0.5)
   minitest-rails
+  pg
   puma (~> 3.0)
   rails (~> 5.0.1)
   spring

@@ -4,6 +4,10 @@ lock '3.7.1'
 set :application, 'Vaquita'
 set :repo_url, 'git@github.com:acequia/vaquita.git'
 
+set :rbenv_ruby, '2.4.1'
+
+set :config_strategy, 'config:dir'
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 #
