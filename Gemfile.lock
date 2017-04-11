@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/mauriciopasquier/capistrano-config_provider.git
-  revision: 789b6759fe40398ea29eaa90ec47002f76f0fe26
+  revision: a754d937eddba3f9e063de3079f9d8b5203ea22e
   specs:
     capistrano-config_provider (0.1.0)
 
